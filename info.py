@@ -17,8 +17,8 @@ def is_enabled(value, default):
 
 # Bot information
 SESSION = environ.get('SESSION', 'N2Bot')
-API_ID = int(environ.get('API_ID', '25163484'))
-API_HASH = environ.get('API_HASH', '145bcbc424d1c1ffe04f3e607ea55c9a')
+API_ID = int(environ.get('API_ID', '23378704'))
+API_HASH = environ.get('API_HASH', '15a02b4d02babeb79e8f328b0ead0c17)
 BOT_TOKEN = environ.get('BOT_TOKEN', "")
 
 # Bot settings
@@ -50,7 +50,7 @@ FILE_STORE_CHANNEL = [int(ch) for ch in (environ.get('FILE_STORE_CHANNEL', '')).
 DELETE_CHANNELS = [int(dch) if id_pattern.search(dch) else dch for dch in environ.get('DELETE_CHANNELS', '0').split()]
 
 # MongoDB information
-SECONDDB_URI = environ.get('SECONDDB_URI', None)
+SECONDDB_URI = environ.get('SECONDDB_URI', "")
 DATABASE_URI = environ.get('DATABASE_URI', "")
 DATABASE_NAME = environ.get('DATABASE_NAME', "Cluster0")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
@@ -106,7 +106,7 @@ VERIFY_SND_SHORTLINK_API = environ.get('VERIFY_SND_SHORTLINK_API', '')
 VERIFY_TUTORIAL = environ.get('VERIFY_TUTORIAL', 'https://t.me/How_To_Open_Linkl')
 
 # Shortlink Info
-SHORTLINK_MODE = bool(environ.get('SHORTLINK_MODE', True))
+SHORTLINK_MODE = bool(environ.get('SHORTLINK_MODE', False))
 SHORTLINK_URL = environ.get('SHORTLINK_URL', 'api.shareus.io')
 SHORTLINK_API = environ.get('SHORTLINK_API', 'iwPFT7ziOCXWt11Q9bjf1S7Ojnt1')
 
