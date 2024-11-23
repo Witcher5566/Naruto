@@ -107,7 +107,7 @@ Cᴏᴍᴍᴀɴᴅs Aɴᴅ Usᴀɢᴇ:
 my features Stay here new features coming soon...  
  <b>✯ Maintained by : <a href=https://t.me/Patrick_Bateman_r>𓆩•✘̶༎꯭ࠫ𝆺꯭𝅥𝗣𝗮𝘁𝗿𝗶𝗰𝗸᭄𝗕𝗮𝘁𝗲𝗺𝗮𝗻</a></b>
   
- <b>✯ Join here : <a href=https://t.me/avengerdoomsday1>☢Join my updates☢</a></b> 
+ <b>✯ Join here : <a href=https://t.me/SevenX_Support>☢Join my updates☢</a></b> 
   
  ./id - <code>ɢᴇᴛ ɪᴅ ᴏꜰ ᴀ ꜱᴘᴇᴄɪꜰɪᴇᴅ ᴜꜱᴇʀ.</ 
  code> 
@@ -253,7 +253,7 @@ Nᴀᴍᴇ - {}"""
 
 𝗠𝗲𝘀𝘀𝗮𝗴𝗲 <b>: {}</b>"""
 
-    CAPTION = """📂 <i><a href="https://t.me/avengerdoomsday1">{file_name}</a></i>\n\n""" 
+    CAPTION = """📂 <i><a href="https://t.me/SevenX_Support">{file_name}</a></i>\n\n""" 
 
     IMDB_TEMPLATE_TXT = """<b>ʜᴇʏ {message.from_user.mention}, ʜᴇʀᴇ ɪꜱ ᴛʜᴇ ʀᴇꜱᴜʟᴛꜱ ꜰᴏʀ ʏᴏᴜʀ ǫᴜᴇʀʏ {search}.
 
