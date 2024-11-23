@@ -43,7 +43,7 @@ auth_channel = environ.get('AUTH_CHANNEL', '-1002277927856') # give your force s
 AUTH_CHANNEL = int(auth_channel) if auth_channel and id_pattern.search(auth_channel) else None
 reqst_channel = environ.get('REQST_CHANNEL_ID', '')
 REQST_CHANNEL = int(reqst_channel) if reqst_channel and id_pattern.search(reqst_channel) else None
-support_chat_id = environ.get('SUPPORT_CHAT_ID', '')
+support_chat_id = environ.get('SUPPORT_CHAT_ID', '-1002476191865')
 SUPPORT_CHAT_ID = int(support_chat_id) if support_chat_id and id_pattern.search(support_chat_id) else None
 INDEX_REQ_CHANNEL = int(environ.get('INDEX_REQ_CHANNEL', LOG_CHANNEL))
 FILE_STORE_CHANNEL = [int(ch) for ch in (environ.get('FILE_STORE_CHANNEL', '-1002401971782')).split()]
@@ -72,8 +72,8 @@ PUBLIC_FILE_CHANNEL = environ.get('PUBLIC_FILE_CHANNEL', '') # Public Channel Us
 
 # Links
 GRP_LNK = environ.get('GRP_LNK', 'https://t.me/requestmoviesgroup0')
-CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/avengerdoomsday1')
-TUTORIAL = environ.get('TUTORIAL', 'https://t.me/avengerdoomsday1')
+CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/SevenX_Support')
+TUTORIAL = environ.get('TUTORIAL', 'https://t.me/SevenX_Support')
 SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'requestmoviesgroup0') # Support Chat Link Without https:// or @
 
 # True Or False
